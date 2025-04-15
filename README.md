@@ -1,9 +1,9 @@
 # FoxFood
 
-Developed by Tiago Rafael Fernandes Leite (Capyvara13), contact email: tiagorafleite@gmail.com
-Developed by  (), contact email: 
-Developed by  (), contact email: 
-Developed by  (), contact email: 
+Developed by Tiago Rafael Fernandes Leite (Capyvara13), contact email: tiagorafleite@gmail.com<br>
+Developed by  (), contact email: <br>
+Developed by  (), contact email: <br>
+Developed by  (), contact email: <br>
 Developed by  (), contact email: 
 
 ## Summary
