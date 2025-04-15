@@ -1,0 +1,77 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+#logo{
+    width: 13vh;
+    margin-left: 8vh;
+}
+header{
+    height: 10vh;
+    background-color: rgb(255, 186, 106) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#iconDiv {
+    width: 25%;
+}
+
+.pesquisa {
+    width: 25%;
+}
+
+#values {
+    width: 25%;
+}
+
+body{
+    background-color: rgb(252, 224, 192);
+}
+#values{
+    margin-right: 5vh;
+    width: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+#search{
+    width: 40vh;
+    height: 5vh;
+    background-color: rgb(252, 205, 167);
+    border: solid 1.5vh rgb(252, 205, 167);
+    border-radius: 50vh;
+}
+#frase{
+    width: 100%;
+}
+#opcoes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    margin-top: 5vh;
+    border: solid rgb(214, 191, 165) 0.5vh;
+    background-color: black;
+    color: white;
+}
+footer{
+    display: flex;
+    margin-top: 10vh;
+    background-color: rgb(61, 37, 37);
+    width: 100%;
+    border: solid 2vh rgb(61, 37, 37);
+}
+.links{
+    text-decoration: none;
+    color: white;
+    padding-left: 10vh;
+}
+hr{ 
+    margin-top: -0.5vh;
+    margin-left: 2vh;
+    height: 7vh;
+    background-color: white;
+    width: 3px;
+    
+}
