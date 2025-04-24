@@ -75,3 +75,7 @@ hr{
     width: 3px;
     
 }
+
+.card {
+    cursor: pointer;
+}
