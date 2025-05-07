@@ -1,0 +1,70 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+body{
+    background-color: #d5a181;
+}
+#logo{
+    width: 40%;
+    border-radius: 100%;
+}
+#bloco{
+    padding: 3%;
+    margin-top: 3.2%;
+    border-radius: 10px;
+    display:flex;
+    justify-self: center;
+    width: 25%;
+    height: 100%;
+    background-color: #e69664;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: black solid;
+    box-shadow: rgb(132, 107, 62) 0px 5px 2px;
+    
+}
+.t{
+    text-align: left;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.texto{
+    border: black 1px solid;
+    border-radius: 50px;
+    justify-self: center;
+    width: 95%;
+    height: 20px;
+}
+#sexo{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#botoes{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-between;
+}
+#btn1{
+    background-color: #fdd2b7;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: black 2px solid;
+    transition: 0.5s;
+}
+#btn1:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: 0.5s;
+    background-color: #f7ba94;
+}
