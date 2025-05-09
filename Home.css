@@ -1,15 +1,22 @@
-*{
+* {
     margin-top: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#logo{
-    width: 13vh;
+
+html {
+    width: 99vw;
+    height: 100vh;
+}
+
+#logo {
+    height: 13vh;
     margin-left: 8vh;
 }
-header{
+
+header {
     height: 10vh;
-    background-color: rgb(255, 186, 106) ;
+    background-color: rgb(255, 186, 106);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,58 +32,120 @@ header{
 
 #values {
     width: 25%;
-}
-
-body{
-    background-color: rgb(252, 224, 192);
-}
-#values{
     margin-right: 5vh;
     width: 30vh;
     display: flex;
     justify-content: space-evenly;
 }
-#search{
+
+body {
+    background-color: rgb(252, 224, 192);
+}
+
+#search {
     width: 40vh;
     height: 5vh;
     background-color: rgb(252, 205, 167);
     border: solid 1.5vh rgb(252, 205, 167);
     border-radius: 50vh;
 }
-#frase{
+
+#frase {
     width: 100%;
+    height: 80vh;
 }
-#opcoes{
+
+#opcoes {
     display: flex;
     justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-.card{
-    margin-top: 5vh;
+
+.card {
+    margin-top: 7vh;
+    margin-right: 4vw;
     border: solid rgb(214, 191, 165) 0.5vh;
-    background-color: black;
     color: white;
+    width: 23vw;
+    height: 65vh;
+    cursor: pointer;
+    background-color: rgb(255, 186, 106);
 }
-footer{
+
+footer {
     display: flex;
     margin-top: 10vh;
     background-color: rgb(61, 37, 37);
     width: 100%;
     border: solid 2vh rgb(61, 37, 37);
 }
-.links{
+
+.links {
     text-decoration: none;
     color: white;
     padding-left: 10vh;
 }
-hr{ 
+
+hr {
     margin-top: -0.5vh;
     margin-left: 2vh;
     height: 7vh;
     background-color: white;
     width: 3px;
-    
+
 }
 
-.card {
-    cursor: pointer;
+.card-img-top {
+    width: 22.6vw;
+    height: 55vh;
+}
+
+.card-text {
+    font-size: 3vh;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .card {
+        width: 30vw;
+        height: 65vh;
+    }
+
+    .card-img-top {
+        width: 29.6vw;
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #frase {
+        height: 60vh;
+    }
+
+    .card {
+        width: 32vw;
+        height: 67vh;
+    }
+
+    .card-img-top {
+        width: 31.6vw;
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #frase {
+        height: 10vh;
+    }
+
+    .card {
+        width: 32vw;
+        height: 67vh;
+    }
+
+    .card-img-top {
+        width: 31.6vw;
+        height: 55vh;
+    }
 }
